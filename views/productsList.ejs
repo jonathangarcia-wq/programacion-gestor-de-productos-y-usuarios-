@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+
+<h2>Nuestros productos</h2>
+
+<a href="/products/newProduct">Agregar producto</a>
+
+<% if (productos.length === 0) { %>
+
+    <p>No hay productos cargados.</p>
+
+<% } else { %>
+
+    <% productos.forEach(producto => { %>
+        <article>
+            <a href="/products/detail/<%= producto.id %>">
+                <h4><%= producto.nombre %></h4>
+            </a>
+
+            <p>
+                Precio: $<%= producto.precio %>
+            </p>
+        </article>
+    <% }) %>
+
+<% } %>
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,31 @@
+
+<%- include('partials/header.ejs') %>
+
+<h1><%= title %></h1>
+
+<% if (usuario) { %>
+    <h2><%= usuario.nombre %></h2>
+
+    <p>
+        <strong>Email:</strong>
+        <%= usuario.email %>
+    </p>
+
+    <p>
+        <strong>Edad:</strong>
+        <%= usuario.edad %>
+    </p>
+
+    <a href="/users/edit/<%= usuario.id %>">Modificar usuario</a>
+
+    <form action="/users/delete/<%= usuario.id %>" method="POST">
+        <button type="submit">Eliminar usuario</button>
+    </form>
+<% } else { %>
+    <p>No se encontró el usuario.</p>
+<% } %>
+
+<br>
+<a href="/users">Volver a usuarios</a>
+
+<%- include('partials/footer.ejs') %>

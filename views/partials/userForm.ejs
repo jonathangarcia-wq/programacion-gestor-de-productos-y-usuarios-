@@ -1,0 +1,25 @@
+
+<%- include('partials/header.ejs') %>
+
+<h1><%= title %></h1>
+
+<form action="/users/newUser" method="POST">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required>
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+
+    <label>Edad:</label>
+    <input type="number" name="edad" min="0" required>
+    <br><br>
+
+    <button type="submit">Guardar usuario</button>
+</form>
+
+<br>
+<a href="/users">Volver a usuarios</a>
+
+<%- include('partials/footer.ejs') %>

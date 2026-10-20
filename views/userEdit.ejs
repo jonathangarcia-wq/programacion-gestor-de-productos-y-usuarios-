@@ -1,0 +1,46 @@
+
+<%- include('partials/header.ejs') %>
+
+<h1><%= title %></h1>
+
+<% if (usuario) { %>
+    <form action="/users/edit/<%= usuario.id %>" method="POST">
+
+        <label>Nombre:</label>
+        <input
+            type="text"
+            name="nombre"
+            value="<%= usuario.nombre %>"
+            required
+        >
+        <br><br>
+
+        <label>Email:</label>
+        <input
+            type="email"
+            name="email"
+            value="<%= usuario.email %>"
+            required
+        >
+        <br><br>
+
+        <label>Edad:</label>
+        <input
+            type="number"
+            name="edad"
+            value="<%= usuario.edad %>"
+            min="0"
+            required
+        >
+        <br><br>
+
+        <button type="submit">Guardar cambios</button>
+    </form>
+<% } else { %>
+    <p>No se encontró el usuario.</p>
+<% } %>
+
+<br>
+<a href="/users">Volver a usuarios</a>
+
+<%- include('partials/footer.ejs') %>

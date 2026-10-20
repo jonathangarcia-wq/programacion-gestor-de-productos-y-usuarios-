@@ -1,0 +1,108 @@
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #243447;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8ec5ff;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #243447;
+}
+
+/* Enlaces y botones */
+a {
+    color: #1769aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button,
+.boton {
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover,
+.boton:hover {
+    background-color: #104d80;
+}
+
+/* Tarjetas de productos */
+article {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px #00000010;
+}
+
+article h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+article p {
+    margin-bottom: 0;
+}
+
+/* Formularios */
+input,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    padding: 15px 0;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}

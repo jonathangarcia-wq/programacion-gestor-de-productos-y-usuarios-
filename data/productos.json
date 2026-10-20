@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1792453463893,
+    "nombre": "celular",
+    "categoria": "iphone",
+    "descripcion": "hthth",
+    "precio": 355,
+    "stock": 6,
+    "disponible": true
+  },
+  {
+    "id": 1792453542316,
+    "nombre": "celular",
+    "categoria": "iphone",
+    "descripcion": "xdgdg",
+    "precio": 4555,
+    "stock": 55,
+    "disponible": true
+  },
+  {
+    "id": 1792453678273,
+    "nombre": "celular",
+    "categoria": "iphone",
+    "descripcion": "degrgt",
+    "precio": 788,
+    "stock": 5,
+    "disponible": true
+  }
+]
