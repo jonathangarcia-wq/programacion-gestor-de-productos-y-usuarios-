@@ -1,29 +1,83 @@
 [
   {
-    "id": 1792453463893,
-    "nombre": "celular",
-    "categoria": "iphone",
-    "descripcion": "hthth",
-    "precio": 355,
+    "id": 1792453463895,
+    "nombre": "Samsung Galaxy S25 256GB",
+    "categoria": "Celulares",
+    "descripcion": "Smartphone Samsung con pantalla Dynamic AMOLED 2X, cámara avanzada y conectividad 5G.",
+    "precio": 1800000,
+    "stock": 8,
+    "disponible": true
+  },
+  {
+    "id": 1792453463896,
+    "nombre": "Motorola Moto G75 5G",
+    "categoria": "Celulares",
+    "descripcion": "Celular Motorola con pantalla de 6.78 pulgadas, cámara de 50 MP y conectividad 5G.",
+    "precio": 650000,
+    "stock": 12,
+    "disponible": true
+  },
+  {
+    "id": 1792453463897,
+    "nombre": "AirPods Pro 3",
+    "categoria": "Auriculares",
+    "descripcion": "Auriculares inalámbricos Apple con cancelación activa de ruido y estuche de carga.",
+    "precio": 450000,
+    "stock": 7,
+    "disponible": true
+  },
+  {
+    "id": 1792453463898,
+    "nombre": "JBL Tune 720BT",
+    "categoria": "Auriculares",
+    "descripcion": "Auriculares inalámbricos Bluetooth con sonido JBL Pure Bass y batería de larga duración.",
+    "precio": 95000,
+    "stock": 15,
+    "disponible": true
+  },
+  {
+    "id": 1792453463899,
+    "nombre": "Cargador USB-C 20W",
+    "categoria": "Accesorios",
+    "descripcion": "Adaptador de corriente USB-C de 20 W compatible con dispositivos que admiten carga USB Power Delivery.",
+    "precio": 35000,
+    "stock": 20,
+    "disponible": true
+  },
+  {
+    "id": 1792453463900,
+    "nombre": "Cable USB-C a USB-C",
+    "categoria": "Accesorios",
+    "descripcion": "Cable de carga y transferencia de datos USB-C compatible con celulares, tablets y otros dispositivos.",
+    "precio": 12000,
+    "stock": 30,
+    "disponible": true
+  },
+  {
+    "id": 1792453463901,
+    "nombre": "Apple Watch SE 2 GPS",
+    "categoria": "Relojes inteligentes",
+    "descripcion": "Reloj inteligente Apple con seguimiento de actividad física, notificaciones y funciones de salud.",
+    "precio": 380000,
+    "stock": 4,
+    "disponible": true
+  },
+  {
+    "id": 1792453463902,
+    "nombre": "Samsung Galaxy Tab A9",
+    "categoria": "Tablets",
+    "descripcion": "Tablet compacta con pantalla de 8.7 pulgadas, ideal para estudiar, leer y consumir contenido multimedia.",
+    "precio": 280000,
     "stock": 6,
     "disponible": true
   },
   {
-    "id": 1792453542316,
-    "nombre": "celular",
-    "categoria": "iphone",
-    "descripcion": "xdgdg",
-    "precio": 4555,
-    "stock": 55,
-    "disponible": true
-  },
-  {
-    "id": 1792453678273,
-    "nombre": "celular",
-    "categoria": "iphone",
-    "descripcion": "degrgt",
-    "precio": 788,
-    "stock": 5,
+    "id": 1792453463903,
+    "nombre": "Power Bank 20000 mAh",
+    "categoria": "Accesorios",
+    "descripcion": "Batería externa portátil de 20000 mAh para recargar celulares y otros dispositivos compatibles.",
+    "precio": 45000,
+    "stock": 10,
     "disponible": true
   }
 ]
